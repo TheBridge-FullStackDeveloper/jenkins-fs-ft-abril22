@@ -1,4 +1,7 @@
 function sum(a, b) {
-    return a + b;
-  }
-  module.exports = sum;
+  return a + b;
+}
+
+console.log(sum(1, 2));
+
+module.exports = sum;
