@@ -1,7 +1,5 @@
 name: my-first-actions
-
 on: [push]
-
 jobs:
   check-node-version:
     run-on: ubuntu-latest
