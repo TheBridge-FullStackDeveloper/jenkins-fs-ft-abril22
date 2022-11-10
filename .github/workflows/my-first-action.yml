@@ -2,7 +2,7 @@ name: my-first-actions
 
 on: [push]
 
-job:
+jobs:
   check-node-version:
     run-on: ubuntu-latest
     steps:
