@@ -1,9 +1,6 @@
 name: deploy to Railway
 
-on:
-  push:
-    tags:
-      - "*"
+on: [push]
 
 jobs:
   build:
